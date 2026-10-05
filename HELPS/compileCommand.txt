@@ -1,0 +1,9 @@
+g++ game.cpp -I./raylib-6.0_win64_mingw-w64/raylib-6.0_win64_mingw-w64/include -L./raylib-6.0_win64_mingw-w64/raylib-6.0_win64_mingw-w64/lib -lraylib -lopengl32 -lgdi32 -lwinmm -o main.exe
+
+
+100% working from c++ folder:
+g++ game.cpp -I./raylib-6.0_win64_mingw-w64/raylib-6.0_win64_mingw-w64/include -L./raylib-6.0_win64_mingw-w64/raylib-6.0_win64_mingw-w64/lib -lraylib -lopengl32 -lgdi32 -lwinmm -o main.exe
+
+
+working from c++ folder without console:
+g++ game.cpp -I./raylib-6.0_win64_mingw-w64/raylib-6.0_win64_mingw-w64/include -L./raylib-6.0_win64_mingw-w64/raylib-6.0_win64_mingw-w64/lib -lraylib -lopengl32 -lgdi32 -lwinmm -mwindows -o main.exe
