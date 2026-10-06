@@ -61,6 +61,7 @@ class Player {
     int vx = 0;
     int vy = 0;
     int mxsp = 10;
+
     public:
     Player(int hp, float x, float y, int r, float v): hp(hp), x(x), y(y), r(r), v(v) {};
 
